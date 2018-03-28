@@ -1,0 +1,6 @@
+Package: my-package-name
+Architecture: all
+Maintainer: @rohgts
+Priority: optional
+Version: 0.1
+Description: Timer service
