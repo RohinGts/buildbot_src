@@ -1,0 +1,11 @@
+Package: linuxconf
+Version: 1.0-1
+Architecture: all
+Maintainer: Rohin Sambath <Rohin@Sambath.tld>
+Installed-Size: 12
+Depends: init-system-helpers (>= 1.18~)
+Section: unknown
+Priority: extra
+Homepage: <insert the upstream URL, if relevant>
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>

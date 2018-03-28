@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Thu, 29 Mar 2018 21:48:19 -0800
+Source: linuxconf
+Binary: linuxconf
+Architecture: all
+Version: 1.0-1
+Distribution: unstable
+Urgency: low
+Maintainer: Rohin Sambath <Rohin@Sambath.tld>
+Changed-By: Rohin Sambath <Rohin@Sambath.tld>
+Description:
+ linuxconf  - <insert up to 60 chars description>
+Changes:
+ linuxconf (1.0-1) unstable; urgency=low
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ 4808a96193c81e2f1d6b6c48c8f4e616808b30f2 1740 linuxconf_1.0-1_all.deb
+ 60d2bd3569f0d60527e023de6649cd8929c6c273 4546 linuxconf_1.0-1_amd64.buildinfo
+Checksums-Sha256:
+ c51e1770c7b46acac269e9ab730105f8a1f84ffb46dcf8a8f60bf9c4541505fd 1740 linuxconf_1.0-1_all.deb
+ 61f16680d57f330dc6ae2c516179002525db602fb9fdee43057347e3ec9f0267 4546 linuxconf_1.0-1_amd64.buildinfo
+Files:
+ ec932b0c4602d88feb7d5c9c2fb34811 1740 unknown extra linuxconf_1.0-1_all.deb
+ c3e9313dad76790269ce3ef876f60ed9 4546 unknown extra linuxconf_1.0-1_amd64.buildinfo

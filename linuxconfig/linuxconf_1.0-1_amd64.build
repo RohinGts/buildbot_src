@@ -1,0 +1,18 @@
+ dpkg-buildpackage -rfakeroot -us -uc
+dpkg-buildpackage: info: source package linuxconf
+dpkg-buildpackage: info: source version 1.0-1
+dpkg-buildpackage: info: source distribution unstable
+dpkg-buildpackage: info: source changed by Rohin Sambath <Rohin@Sambath.tld>
+ dpkg-source --before-build linuxconf-1.0
+dpkg-buildpackage: info: host architecture amd64
+ fakeroot debian/rules clean
+dh clean 
+dh: Compatibility levels before 9 are deprecated (level 8 in use)
+   dh_testdir
+   dh_auto_clean
+dh_auto_clean: Compatibility levels before 9 are deprecated (level 8 in use)
+   dh_clean
+dh_clean: Compatibility levels before 9 are deprecated (level 8 in use)
+ dpkg-source -b linuxconf-1.0
+dpkg-source: error: can't build with source format '3.0 (quilt)': no upstream tarball found at ../linuxconf_1.0.orig.tar.{bz2,gz,lzma,xz}
+dpkg-buildpackage: error: dpkg-source -b linuxconf-1.0 gave error exit status 255

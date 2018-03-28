@@ -1,0 +1,14 @@
+Source: linuxconf
+Section: unknown
+Priority: extra
+Maintainer: Rohin Sambath <Rohin@Sambath.tld>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.2
+Homepage: <insert the upstream URL, if relevant>
+
+
+Package: linuxconf
+Architecture: all
+Depends: ${misc:Depends}
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
