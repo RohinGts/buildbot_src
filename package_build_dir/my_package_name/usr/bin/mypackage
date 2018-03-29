@@ -1,4 +1,0 @@
-#!/bin/bash
-sudo cp my_package_name/usr/bin/final.sh ~/final.sh
-sudo systemctl enable myscrit.timer myscrit.service
-sudo systemctl start myscrit.timer myscrit.service

@@ -1,8 +1,0 @@
-[Unit]
-Description=MyScript
-
-[Service]
-ExecStart= /bin/bash /home/rohin1385/final.sh
-
-[Install]
-WantedBy=mytimer.target

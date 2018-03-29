@@ -1,5 +1,0 @@
-final.sh usr/bin
-
-myscrit.service /etc/systemd/system
-
-myscrit.timer /etc/systemd/system

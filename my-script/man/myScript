@@ -1,0 +1,17 @@
+.\" Manpage for myScript.
+.\" Contact rohin1385@gmail.com to correct errors or typos.
+.TH man 8 "29 March 2018" "1.0" "myScript man page"
+.SH NAME
+myScript \- create a new timer service to print timestamp every 1 minute, which can be viewed using the command "journalctl -u myscrit.service -f" 
+.SH SYNOPSIS
+myScript
+.SH DESCRIPTION
+myScript takes a shell program and executes it in the systemd services with the help of a service and a timer file.
+.SH OPTIONS
+The nuseradd does not take any options.
+.SH SEE ALSO
+useradd(8), passwd(5), nuseradd.debian(8) 
+.SH BUGS
+No known bugs.
+.SH AUTHOR
+Rohin S (rohin1385@gmail.com)

@@ -1,9 +1,0 @@
-#!/usr/bin/make -f
-%:
-	dh $@ 
-
-override_dh_install:
-	dh_systemd_enable myscrit.timer
-	dh_systemd_enable myscrit.service
-	dh_systemd_start myscrit.timer
-	dh_systemd_start myscrit.service

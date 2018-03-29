@@ -1,0 +1,134 @@
+ dpkg-buildpackage -rfakeroot -us -uc
+dpkg-buildpackage: warning:     debian/changelog(l3): unrecognized line
+LINE:  * Initial release.
+dpkg-buildpackage: warning:     debian/changelog(l5): badly formatted heading line
+LINE: -- Person McTesterr <person@company.tld>  Thu, 29 Mar 2018 17:49:47 -0700
+dpkg-buildpackage: warning:     debian/changelog(l5): found end of file where expected start of change data
+dpkg-buildpackage: info: source package my-script
+dpkg-buildpackage: info: source version 1.0.0
+dpkg-buildpackage: info: source distribution unstable
+dpkg-buildpackage: info: source changed by 
+ dpkg-source --before-build my-script
+dpkg-buildpackage: info: host architecture amd64
+dpkg-source: warning: my-script/debian/changelog(l3): unrecognized line
+LINE:  * Initial release.
+dpkg-source: warning: my-script/debian/changelog(l5): badly formatted heading line
+LINE: -- Person McTesterr <person@company.tld>  Thu, 29 Mar 2018 17:49:47 -0700
+dpkg-source: warning: my-script/debian/changelog(l5): found end of file where expected start of change data
+ fakeroot debian/rules clean
+dh clean --with python2
+dh: Compatibility levels before 9 are deprecated (level 7 in use)
+   dh_testdir
+   dh_auto_clean
+dh_auto_clean: Compatibility levels before 9 are deprecated (level 7 in use)
+   dh_clean
+dh_clean: Compatibility levels before 9 are deprecated (level 7 in use)
+ dpkg-source -b my-script
+dpkg-source: warning: my-script/debian/changelog(l3): unrecognized line
+LINE:  * Initial release.
+dpkg-source: warning: my-script/debian/changelog(l5): badly formatted heading line
+LINE: -- Person McTesterr <person@company.tld>  Thu, 29 Mar 2018 17:49:47 -0700
+dpkg-source: warning: my-script/debian/changelog(l5): found end of file where expected start of change data
+dpkg-source: warning: no source format specified in debian/source/format, see dpkg-source(1)
+dpkg-source: warning: source directory 'my-script' is not <sourcepackage>-<upstreamversion> 'my-script-1.0.0'
+dpkg-source: info: using source format '1.0'
+dpkg-source: info: building my-script in my-script_1.0.0.tar.gz
+dpkg-source: info: building my-script in my-script_1.0.0.dsc
+ debian/rules build
+dh build --with python2
+dh: Compatibility levels before 9 are deprecated (level 7 in use)
+   dh_testdir
+   dh_update_autotools_config
+   dh_auto_configure
+dh_auto_configure: Compatibility levels before 9 are deprecated (level 7 in use)
+   dh_auto_build
+dh_auto_build: Compatibility levels before 9 are deprecated (level 7 in use)
+   dh_auto_test
+dh_auto_test: Compatibility levels before 9 are deprecated (level 7 in use)
+   create-stamp debian/debhelper-build-stamp
+ fakeroot debian/rules binary
+dh binary --with python2
+dh: Compatibility levels before 9 are deprecated (level 7 in use)
+   dh_testroot
+   dh_prep
+   dh_auto_install
+dh_auto_install: Compatibility levels before 9 are deprecated (level 7 in use)
+   dh_install
+dh_install: Compatibility levels before 9 are deprecated (level 7 in use)
+   dh_installdocs
+   dh_installchangelogs
+dpkg-parsechangelog: warning:     debian/changelog(l3): unrecognized line
+LINE:  * Initial release.
+dpkg-parsechangelog: warning:     debian/changelog(l5): badly formatted heading line
+LINE: -- Person McTesterr <person@company.tld>  Thu, 29 Mar 2018 17:49:47 -0700
+dpkg-parsechangelog: warning:     debian/changelog(l5): found end of file where expected start of change data
+   dh_python2
+W: dh_python2:479: Please add dh-python package to Build-Depends
+   dh_perl
+   dh_link
+   dh_strip_nondeterminism
+   dh_compress
+   dh_fixperms
+   dh_installdeb
+dh_installdeb: Compatibility levels before 9 are deprecated (level 7 in use)
+   dh_gencontrol
+dpkg-gencontrol: warning:     debian/changelog(l3): unrecognized line
+LINE:  * Initial release.
+dpkg-gencontrol: warning:     debian/changelog(l5): badly formatted heading line
+LINE: -- Person McTesterr <person@company.tld>  Thu, 29 Mar 2018 17:49:47 -0700
+dpkg-gencontrol: warning:     debian/changelog(l5): found end of file where expected start of change data
+   dh_md5sums
+   dh_builddeb
+dpkg-deb: building package 'my-script' in '../my-script_1.0.0_all.deb'.
+ dpkg-genbuildinfo
+dpkg-genbuildinfo: warning:     debian/changelog(l3): unrecognized line
+LINE:  * Initial release.
+dpkg-genbuildinfo: warning:     debian/changelog(l5): badly formatted heading line
+LINE: -- Person McTesterr <person@company.tld>  Thu, 29 Mar 2018 17:49:47 -0700
+dpkg-genbuildinfo: warning:     debian/changelog(l5): found end of file where expected start of change data
+dpkg-genbuildinfo: warning:     debian/changelog(l3): unrecognized line
+LINE:  * Initial release.
+dpkg-genbuildinfo: warning:     debian/changelog(l5): badly formatted heading line
+LINE: -- Person McTesterr <person@company.tld>  Thu, 29 Mar 2018 17:49:47 -0700
+dpkg-genbuildinfo: warning:     debian/changelog(l5): found end of file where expected start of change data
+ dpkg-genchanges  >../my-script_1.0.0_amd64.changes
+dpkg-genchanges: warning:     debian/changelog(l3): unrecognized line
+LINE:  * Initial release.
+dpkg-genchanges: warning:     debian/changelog(l5): badly formatted heading line
+LINE: -- Person McTesterr <person@company.tld>  Thu, 29 Mar 2018 17:49:47 -0700
+dpkg-genchanges: warning:     debian/changelog(l5): found end of file where expected start of change data
+dpkg-genchanges: warning:     debian/changelog(l3): unrecognized line
+LINE:  * Initial release.
+dpkg-genchanges: warning:     debian/changelog(l5): badly formatted heading line
+LINE: -- Person McTesterr <person@company.tld>  Thu, 29 Mar 2018 17:49:47 -0700
+dpkg-genchanges: warning:     debian/changelog(l5): found end of file where expected start of change data
+dpkg-genchanges: info: including full source code in upload
+ dpkg-source --after-build my-script
+dpkg-source: warning: my-script/debian/changelog(l3): unrecognized line
+LINE:  * Initial release.
+dpkg-source: warning: my-script/debian/changelog(l5): badly formatted heading line
+LINE: -- Person McTesterr <person@company.tld>  Thu, 29 Mar 2018 17:49:47 -0700
+dpkg-source: warning: my-script/debian/changelog(l5): found end of file where expected start of change data
+dpkg-buildpackage: info: full upload; Debian-native package (full source is included)
+Now running lintian...
+W: my-script source: package-uses-deprecated-debhelper-compat-version 7
+E: my-script source: maintainer-address-malformed Name, <email@address>
+Use of uninitialized value $maintainer in substitution (s///) at /usr/share/lintian/checks/nmu.pm line 139.
+Use of uninitialized value $uploader in pattern match (m//) at /usr/share/lintian/checks/nmu.pm line 83.
+Use of uninitialized value $uploader in string ne at /usr/share/lintian/checks/nmu.pm line 102.
+W: my-script source: changelog-should-mention-nmu
+W: my-script source: source-nmu-has-incorrect-version-number 1.0.0
+W: my-script source: pipe-symbol-used-as-license-disjunction  gpl-2+ | lgpl-2 | gpl-3 | whatever  (paragraph at line 5)
+W: my-script source: space-in-std-shortname-in-dep5-copyright  gpl-2+ | lgpl-2 | gpl-3 | whatever  (paragraph at line 5)
+W: my-script source: ancient-standards-version 3.9.2 (current is 3.9.8)
+W: my-script: syntax-error-in-debian-changelog line 3 "unrecognised line"
+W: my-script: syntax-error-in-debian-changelog line 5 "badly formatted heading line"
+W: my-script: syntax-error-in-debian-changelog line 5 "found eof where expected more change data or trailer"
+E: my-script: maintainer-address-malformed Name, <email@address>
+W: my-script: binary-without-manpage usr/bin/myScript
+Finished running lintian.
+Now signing changes and any dsc files...
+ signfile dsc my-script_1.0.0.dsc Name, <email@address>
+gpg: skipped "Name, <email@address>": No secret key
+gpg: /tmp/debsign.2C8uGvNb/my-script_1.0.0.dsc: clear-sign failed: No secret key
+debsign: gpg error occurred!  Aborting....

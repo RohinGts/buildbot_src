@@ -1,7 +1,6 @@
-myScript.py usr/bin/
+myScript usr/bin/
 
-final.sh /etc/systemd/system/
 
-myscrit.service /etc/systemd/system/
 
-myscrit.timer /etc/systemd/system/
+
+
