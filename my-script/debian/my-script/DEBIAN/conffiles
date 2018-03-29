@@ -1,0 +1,3 @@
+/etc/systemd/system/final.sh
+/etc/systemd/system/myscrit.service
+/etc/systemd/system/myscrit.timer
