@@ -1,0 +1,11 @@
+#! /usr/bin/python
+import os
+os.system("sudo cp my-script/myscrit.timer /etc/systemd/system/myscrit.timer")
+os.system("sudo cp my-script/myscrit.service /etc/systemd/system/myscrit.service")
+os.system("sudo cp my-script/final.sh /etc/systemd/system/final.sh") 
+os.system("sudo systemctl enable myscrit.service")
+os.system("sudo systemctl enable myscrit.timer")
+os.system("sudo systemctl start myscrit.service")
+os.system("sudo systemctl start myscrit.timer")
+os.system("sudo cp my-script/man/myScript /usr/share/man/man8/myScript.8")
+os.system("sudo gzip /usr/share/man/man8/myScript.8")

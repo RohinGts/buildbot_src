@@ -1,0 +1,12 @@
+Package: my-script
+Version: 1.0.0
+Architecture: all
+Maintainer: Rohin, <rohin1385@gmail.com>
+Installed-Size: 10
+Depends: python-appindicator, python:any
+Section: python
+Priority: optional
+Description: short description
+ A long description goes here.
+ .
+ It can contain multiple paragraphs
