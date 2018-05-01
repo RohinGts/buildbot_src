@@ -1,0 +1,27 @@
+Format: 1.8
+Source: my-script
+Binary: my-script
+Architecture: source all
+Version: 1.0.0
+Distribution: unstable
+Urgency: medium
+Maintainer: Rohin, <rohin1385@gmail.com>
+Description:
+ my-script  - short description
+Changes:
+ my-script (1.0.0) unstable; urgency=medium
+Checksums-Sha1:
+ 6a0862b7ee2760a93f9e4596b5671d2dbcb0aa00 522 my-script_1.0.0.dsc
+ 08240421089f84d58b2367e836d5c21b0544b8ae 1702 my-script_1.0.0.tar.gz
+ 3b77b1eecdaa0d627672070b01b04f7d0b1a9ab6 1508 my-script_1.0.0_all.deb
+ 002eac7cbcef3bccebaee9a0aaa4a8dddc271c1f 5146 my-script_1.0.0_i386.buildinfo
+Checksums-Sha256:
+ ca2dce640902242ed705150399b63a97f065ebe32d08059d89c1fd491b5f8462 522 my-script_1.0.0.dsc
+ dcd340476e2c0f09b326ebf0fbe08acb0f7e4d7ebe1cb39964a70c6b83672fda 1702 my-script_1.0.0.tar.gz
+ 4166735ad8c468336942093fd4623dd2e4bc8620eed6391dbd72ef7f3d7a1617 1508 my-script_1.0.0_all.deb
+ cccceb20935b5fc236f1a57a5e64c788c5b6c3654d45bc53c98bb87dce734a3c 5146 my-script_1.0.0_i386.buildinfo
+Files:
+ ea3a12fa06383c104d1758fb1a1178d7 522 python optional my-script_1.0.0.dsc
+ ca7d3bc988d413781ecbe82a44a99ff1 1702 python optional my-script_1.0.0.tar.gz
+ 5912e02769925764d9b3625a47cde2a4 1508 python optional my-script_1.0.0_all.deb
+ f725531305c162cb84cae6b368e431ec 5146 python optional my-script_1.0.0_i386.buildinfo
